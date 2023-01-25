@@ -31,11 +31,10 @@ body{
 }
 
 .slider{
-    -webkit-appearance: none;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 20px;
     background: #dfd;
-    height: 18px;
+    height: 28px;
     outline: none;
     margin-top: 8px;
 }
@@ -108,3 +107,10 @@ body{
     bottom: 50px;
     opacity: 1;
 }
+
+@media(max-width: 570px)
+  {
+    button div{
+      display: none;
+    }
+  }
